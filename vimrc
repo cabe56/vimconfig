@@ -2,7 +2,7 @@ call pathogen#infect()
 call pathogen#helptags()
 
 syntax enable
-set ts=4 sts=4 sw=4 expandtab
+set ts=2 sts=2 sw=2 expandtab
 
 set background=dark
 let g:solarized_termtrans=1
