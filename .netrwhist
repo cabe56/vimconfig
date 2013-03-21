@@ -1,10 +1,3 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =8
-let g:netrw_dirhist_1='/Volumes/Storage/jose/Workspace/rails/proto/app/views/pages'
-let g:netrw_dirhist_2='/Volumes/Storage/jose/Workspace/rails/proto/app/views'
-let g:netrw_dirhist_3='/Volumes/Storage/jose/Workspace/rails/proto/app/views/pages'
-let g:netrw_dirhist_4='/Volumes/Storage/jose/Workspace/rails/proto/app/views/pages/mobile'
-let g:netrw_dirhist_5='/Volumes/Storage/jose/Workspace/rails/proto/spec/javascripts/lib'
-let g:netrw_dirhist_6='/Volumes/Storage/jose/Workspace/rails/proto/app/assets/javascripts'
-let g:netrw_dirhist_7='/Volumes/Storage/jose/Workspace/rails/proto/app/assets/javascripts/lib'
-let g:netrw_dirhist_8='/Volumes/Storage/jose/Workspace/rails/proto/app/assets/javascripts'
+let g:netrw_dirhist_cnt =1
+let g:netrw_dirhist_1='/Volumes/Storage/jose/Workspace/rails/proto/spec/javascripts/views'
