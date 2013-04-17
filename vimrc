@@ -13,3 +13,6 @@ let g:solarized_visibility="high"
 colorscheme solarized
 
 filetype plugin indent on
+
+" Add haml syntax to hamlc
+au BufRead,BufNewFile *.hamlc set ft=haml
