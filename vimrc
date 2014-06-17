@@ -16,3 +16,6 @@ filetype plugin indent on
 
 " Add haml syntax to hamlc
 au BufRead,BufNewFile *.hamlc set ft=haml
+
+" Remove trailing whitespace before saving
+autocmd FileType c,cpp,java,php,python,ruby,coffee autocmd BufWritePre <buffer> :%s/\s\+$//e
