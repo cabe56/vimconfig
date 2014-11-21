@@ -5,7 +5,7 @@ call pathogen#helptags()
 set hlsearch
 " Hitting Return clears text highlighting from hlsearch
 nnoremap <CR> :noh<CR><CR>
-set nu
+set number
 syntax enable
 set ts=2 sts=2 sw=2 expandtab
 
