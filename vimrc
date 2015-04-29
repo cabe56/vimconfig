@@ -31,6 +31,7 @@ autocmd FileType c,cpp,java,php,python,ruby,coffee autocmd BufWritePre <buffer> 
 " Syntastic config: linters
 let g:syntastic_aggregate_errors = 1 " Show errors from multiple linters
 let g:syntastic_always_populate_loc_list = 1 " auto-update list shown using :Errors
+let g:syntastic_check_on_open = 1
 let g:syntastic_ruby_checkers = ['rubylint', 'rubocop']
-let g:syntastic_python_checkers = ['pylint']
+let g:syntastic_python_checkers = ['python', 'pep8', 'pep257']
 let g:syntastic_coffee_checkers = ['coffeelint']
